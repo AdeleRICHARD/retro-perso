@@ -1,0 +1,17 @@
+{
+  "name": "retro-perso",
+  "version": "1.0.0",
+  "description": "Application web de rétrospective personnelle",
+  "main": "src/script.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {}
+}
